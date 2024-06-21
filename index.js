@@ -13,5 +13,5 @@ button.addEventListener('click', (event) => {
 
     p.textContent = localStorage.getItem("ism");
 
-    input.value();
+    input.value = "";
 });
